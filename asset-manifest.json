@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/agilenix-usersList/static/js/main.45dac96b.chunk.js",
+    "main.js.map": "/agilenix-usersList/static/js/main.45dac96b.chunk.js.map",
+    "runtime-main.js": "/agilenix-usersList/static/js/runtime-main.517ec398.js",
+    "runtime-main.js.map": "/agilenix-usersList/static/js/runtime-main.517ec398.js.map",
+    "static/css/2.bc3aac6f.chunk.css": "/agilenix-usersList/static/css/2.bc3aac6f.chunk.css",
+    "static/js/2.68ec1cbe.chunk.js": "/agilenix-usersList/static/js/2.68ec1cbe.chunk.js",
+    "static/js/2.68ec1cbe.chunk.js.map": "/agilenix-usersList/static/js/2.68ec1cbe.chunk.js.map",
+    "index.html": "/agilenix-usersList/index.html",
+    "precache-manifest.15f6a6482c2c91adf9e563044c3d686a.js": "/agilenix-usersList/precache-manifest.15f6a6482c2c91adf9e563044c3d686a.js",
+    "service-worker.js": "/agilenix-usersList/service-worker.js",
+    "static/css/2.bc3aac6f.chunk.css.map": "/agilenix-usersList/static/css/2.bc3aac6f.chunk.css.map"
+  }
+}
