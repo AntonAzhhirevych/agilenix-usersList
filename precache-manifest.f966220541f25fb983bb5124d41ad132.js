@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd9bd01e5783872fd717f5b648d76e4e",
+    "revision": "74cd720c2a631e9b1e3a9786b666e590",
     "url": "/agilenix-usersList/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/agilenix-usersList/static/js/2.68ec1cbe.chunk.js"
   },
   {
-    "revision": "0c330f4e56f1adb2a187",
-    "url": "/agilenix-usersList/static/js/main.45dac96b.chunk.js"
+    "revision": "4aa769fb91fd14364ccf",
+    "url": "/agilenix-usersList/static/js/main.a5a53c14.chunk.js"
   },
   {
     "revision": "a037fd6e7a1f7931366b",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/agilenix-usersList/precache-manifest.15f6a6482c2c91adf9e563044c3d686a.js"
+  "/agilenix-usersList/precache-manifest.f966220541f25fb983bb5124d41ad132.js"
 );
 
 self.addEventListener('message', (event) => {
