@@ -1,6 +1,5 @@
 import types from './userListTypes';
 
-/* eslint-disable-next-line */
 export const userReducer = (state = [], { type, payload }) => {
   switch (type) {
     case types.GET_USERS_SUCCESS:
@@ -25,8 +24,6 @@ export const loadingReducer = (state = false, { type }) => {
 
 export const errorReducer = (state = '', { type, payload }) => {
   switch (type) {
-    case types.GET_USERS_START:
-      return '';
     case types.GET_USERS_ERROR:
       return payload.message;
 

@@ -1,9 +1,9 @@
 import axios from 'axios';
-import { getUserStart, getUserSuccess, getUserError } from './userListAction';
+import * as action from './userListAction';
 
 /* eslint-disable-next-line */
 export const getUsers = () => dispatch => {
-  dispatch(getUserStart());
+  dispatch(action.getUserStart());
   axios
     .get('https://api.github.com/search/users?q=location:kyiv&per_page=10')
     .then(users => users.data.items.map(user => user.login))
@@ -15,6 +15,6 @@ export const getUsers = () => dispatch => {
       ),
     )
     .then(result => result.map(r => r.data))
-    .then(user => dispatch(getUserSuccess(user)))
-    .catch(error => dispatch(getUserError(error)));
+    .then(user => dispatch(action.getUserSuccess(user)))
+    .catch(error => dispatch(action.getUserError(error)));
 };
